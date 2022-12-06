@@ -1,4 +1,4 @@
-package com.globant.web.webandmobilefinaltest;
+package com.globant.web.pageObjects;
 
 import org.testng.annotations.*;
 

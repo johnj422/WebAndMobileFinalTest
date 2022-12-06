@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'com.globant.web'
+group 'com.globant'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -20,6 +20,8 @@ dependencies {
     testImplementation('org.seleniumhq.selenium:selenium-java:4.4.0')
 
     testImplementation('org.testng:testng:7.6.1')
+
+    implementation group: 'io.cucumber', name: 'cucumber-testng', version: '7.9.0'
 }
 
 test {
