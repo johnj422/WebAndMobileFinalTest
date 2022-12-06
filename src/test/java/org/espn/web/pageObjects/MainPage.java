@@ -1,4 +1,4 @@
-package com.globant.web.pageObjects;
+package org.espn.web.pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

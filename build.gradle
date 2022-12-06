@@ -17,11 +17,17 @@ tasks.withType(JavaCompile) {
 }
 
 dependencies {
-    testImplementation('org.seleniumhq.selenium:selenium-java:4.4.0')
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.6.0'
 
     testImplementation('org.testng:testng:7.6.1')
 
     implementation group: 'io.cucumber', name: 'cucumber-testng', version: '7.9.0'
+
+    implementation group: 'io.cucumber', name: 'cucumber-plugin', version: '7.9.0'
+
+    implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.3.1'
+
+
 }
 
 test {
